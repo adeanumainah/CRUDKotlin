@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CRUDKotlin</string>
+    <string name="add_user">Add User</string>
+    <string name="fetch_user">Fetch User</string>
+    <string name="name">Name</string>
+    <string name="price">Price</string>
+    <string name="desc">Desc</string>
+    <string name="save">save</string>
+    <string name="delete">delete</string>
+    <string name="id">Id</string>
+</resources>

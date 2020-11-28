@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <Button
+        android:id="@+id/btn_add_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_user"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="@dimen/_5dp"
+        android:layout_marginBottom="@dimen/_5dp"
+        android:layout_marginRight="@dimen/_16dp"
+        android:layout_marginLeft="@dimen/_16dp"/>
+
+    <Button
+        android:id="@+id/btn_get_user_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fetch_user"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="@dimen/_10dp"
+        android:layout_marginBottom="@dimen/_5dp"
+        android:layout_marginRight="@dimen/_16dp"
+        android:layout_marginLeft="@dimen/_16dp"/>
+
+    <ListView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
